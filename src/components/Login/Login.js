@@ -1,3 +1,4 @@
+
 import React, { Component } from 'react';
 import Background from './../shared/Background/Background'
 import logo from './wallet.png';
@@ -29,7 +30,6 @@ class Login extends Component {
       alert('Login failed. Please try again.');
     }
   }
-
   render() {
     return (
       <Background>
